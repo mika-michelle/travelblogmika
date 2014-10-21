@@ -4,11 +4,13 @@ h2 {text-align:center;}
 p {text-align:center;}
 
 
-#quote{background-color: #e8ddcb; height: 150px;}
+#quote{background-color: #e8ddcb; height: auto; width: 100%;
+		 vertical-align: middle;
+		 padding-top: 50px; padding-bottom: 50px}
 
- 
 
-#mainimage{height:500px; width:100%;}
+
+#mainimage{height:500px; width:100%;margin-bottom:0px;}
 
 
 .crepes {height:100px; width:200px;}
@@ -26,4 +28,14 @@ ul {
     border: 20px;
 }
 
-nav {background-color: #036564; text-align: center; margin-top:0px; padding-top: 0px; border: 0px}
+footer {background-color:#036564; height: auto; width: 100%;vertical-align: middle;
+		padding-top: 20px; padding-bottom: 20px; padding-left:20px;}
+
+
+
+nav {background-color: #036564; text-align: center; margin-top: 0px}
+
+#mainimage nav {margin-top: 0px}
+
+.ubud {float: left;}
+.amed {float:right;}
