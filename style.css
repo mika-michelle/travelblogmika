@@ -1,3 +1,29 @@
-h1{text-align: center; font-family: 'Montserrat', sans-serif;}
+h1{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 50px;}
 
 h2 {text-align:center;}
+p {text-align:center;}
+
+
+#quote{background-color: #e8ddcb; height: 150px;}
+
+ 
+
+#mainimage{height:500px; width:100%;}
+
+
+.crepes {height:100px; width:200px;}
+.bebek {height:100px; width:200px;}
+
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+}
+
+nav {background-color: #036564; text-align: center; margin-top:0px; padding-top: 0px; border: 0px}
