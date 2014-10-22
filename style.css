@@ -3,11 +3,10 @@ body {margin:0px; padding:0px; background-color: #f2fff2;}
 
 h1{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 400%;}
 
-h2 {text-align:center; font-family: 'Open Sans', sans-serif; font-size: 200%}
+h2 {text-align:center; font-family: 'Open Sans', sans-serif; font-size: 200%;}
 
-h3 {
-	font-family: 'Open Sans', sans-serif;
-}
+h3 {font-family: 'Open Sans', sans-serif;text-align: center;}
+
 p {text-align:center; font-family: 'Open Sans', sans-serif; line-height: 200%; font-size: 150%;}
 
 
@@ -20,11 +19,18 @@ p {text-align:center; font-family: 'Open Sans', sans-serif; line-height: 200%; f
 #mainimage{height:500px; width:100%;margin-bottom:0px;}
 
 
-.crepes {height:100px; width:200px;}
-.bebek {height:100px; width:200px;}
+.crepes {height:200px; width:300px;}
+.bebek {height:200px; width:300px;}
 
-.museums {height:200px; width:150px;}
-.shows {height:200px; width:150px;}
+.ubud{height:200px; width:300px;}
+.mtbatur {height:200px; width:300px;}
+.amed {height:200px; width:300px;}
+.tega {height:200px; width:300px;}
+.tirta {height:200px; width:300px;}
+.nusa {height:200px; width:300px;}
+
+.museums {height:250px; width:200px;}
+.shows {height:250px; width:200px;}
 
 li {
     display: inline;
@@ -46,8 +52,6 @@ nav {background-color: #036564; text-align: center; margin-top: 0px; font-size: 
 
 #mainimage nav {margin-top: 0px;}
 
-.ubud {float: left;}
-.amed {float:right;}
  
  a {
  	color: inherit;
@@ -60,13 +64,30 @@ nav {background-color: #036564; text-align: center; margin-top: 0px; font-size: 
   	padding: 0 40px ; text-decoration: none;
   }
 
-  @media (max-width:320px) {  /*small mobile*/
-  h1 {
-    font-size: 10px;
+.first-image {
+	margin-left: 4%;
+	}	
+
+
+@media (max-width:320px) {  /*small mobile*/
+  h3 {
+    font-size: 
   }
 }
-@media screen and (min-width:321px) and (max-width:959px) {  /*tablet*/
-  h4 {
-    font-size: 50px; 
+
+
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+  h3 {
+    background-color: green; 
+  }
+}
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+  h3 {
+    background-color: blue;
+  }
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+  h3 {
+    background-color: yellow;
   }
 }
