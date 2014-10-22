@@ -1,12 +1,19 @@
-h1{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 50px;}
 
-h2 {text-align:center;}
-p {text-align:center;}
+body {margin:0px; padding:0px; background-color: #f2fff2;}
+
+h1{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 400%;}
+
+h2 {text-align:center; font-family: 'Open Sans', sans-serif; font-size: 200%}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+p {text-align:center; font-family: 'Open Sans', sans-serif; line-height: 200%; font-size: 150%;}
 
 
-#quote{background-color: #e8ddcb; height: auto; width: 100%;
+#quote{background-color: #ebddcb; height: auto; width: 100%;
 		 vertical-align: middle;
-		 padding-top: 50px; padding-bottom: 50px}
+		 padding-top: 50px; padding-bottom: 50px;}
 
 
 
@@ -16,6 +23,8 @@ p {text-align:center;}
 .crepes {height:100px; width:200px;}
 .bebek {height:100px; width:200px;}
 
+.museums {height:200px; width:150px;}
+.shows {height:200px; width:150px;}
 
 li {
     display: inline;
@@ -33,9 +42,31 @@ footer {background-color:#036564; height: auto; width: 100%;vertical-align: midd
 
 
 
-nav {background-color: #036564; text-align: center; margin-top: 0px}
+nav {background-color: #036564; text-align: center; margin-top: 0px; font-size: 150%;}
 
-#mainimage nav {margin-top: 0px}
+#mainimage nav {margin-top: 0px;}
 
 .ubud {float: left;}
 .amed {float:right;}
+ 
+ a {
+ 	color: inherit;
+ }
+
+  a:hover{
+  color: #00008B;} 
+
+  nav li a {
+  	padding: 0 40px ; text-decoration: none;
+  }
+
+  @media (max-width:320px) {  /*small mobile*/
+  h1 {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width:321px) and (max-width:959px) {  /*tablet*/
+  h4 {
+    font-size: 50px; 
+  }
+}
