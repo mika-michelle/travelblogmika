@@ -20,35 +20,17 @@
 
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title> Travel Book </title>
+	<title>Travel Book</title>
 
-		<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 
 </head>
 
 <body>
 
-	<header>
-		<h1> Travel Book </h1>
-			
-	</header>
+	
 
-	<section>
-
-		<div class="container">
-  			<div class="row">
-
-    			<div class="col-md-12">
-				<img src="img/mypic2.jpg" id="mainimage" class="img-responsive">
-				</div>
-			</div>
-		</div>
-
-	</section>
-
-	<nav>
+	<!--<nav>
 		<ul> 
 			<li>
 				<a href="#iteneraries"> Places to see </a>
@@ -65,36 +47,111 @@
 
 		</ul>
 		
-	</nav> 
+	</nav> -->
 
-	
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--<a class="navbar-brand" href="#">Brand</a> -->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#iteneraries">Places to See </a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#todo">What to Do</a></li>
+        <!--<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li> 
+          </ul>
+        </li>-->
+      </ul>
+
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+     
+        
+        <!--<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li> -->
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+ 
+
+	<header>
+		
+		<h1>Travel Book</h1>
+			
+	</header>
 
 	<section>
 
-		<h2> Welcome to Travel Book </h2>
-			<p> Plan your next adventure. </br> Discover places thanks to a selection of sites.</br> Choose your itineraries and find useful tips </p>
+		<div class="container">
+  			<div class="row">
+
+    			<div class="col-sm-12">
+				<img src="img/mypic2.jpg" id="mainimage" class="img-responsive">
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section>
+
+		<h2>Welcome to Travel Book</h2>
+			<p>Plan your next adventure.</br>Discover places thanks to a selection of sites.</br>Choose your itineraries and find useful tips</p>
 	</section>
 
 	
 
 	<section id="iteneraries">
-		<h2> Places to See </h2>
+		<h2>Places to See</h2>
 
 		<div class="container">
   			<div class="row">
 
     			<div class="col-sm-3 first-image">
-					<img src="img/ubud.jpg" class="ubud img-responsive">
-					<h3>Mt Batur</h3>
+					<img src="img/ubud1.jpg" class="placesfood img-responsive">
+					<h3>Ubud</h3>
 				</div>
 		
 				<div class="col-sm-3 col-sm-offset-1">
-					<img src="img/mtbaturt.jpg" class="mtbatur img-responsive">
-					<h3>Ubud</h3>
+					<img src="img/mtbaturt.jpg" class="placesfood img-responsive">
+					<h3>Mt Batur</h3>
 				</div>
 				
 				<div class="col-sm-3 col-sm-offset-1">
-				 	<img src="img/amedr.jpg" class="amed img-responsive">
+				 	<img src="img/amedr.jpg" class="placesfood img-responsive">
 				 	<h3>Amed</h3>
 				</div>
 
@@ -105,50 +162,47 @@
   			<div class="row">
 
   				<div class="col-sm-3 first-image" >
-					<img src="img/tegallalang.jpg" class="tega img-responsive">
+					<img src="img/tegallalang.jpg" class="placesfood img-responsive">
 					<h3>Tegallalang</h3>
 				</div>
 
 				<div class="col-sm-3 col-sm-offset-1">
-					<img src="img/tirtagangga-.jpg" class="tirta img-responsive">
+					<img src="img/tirtagangga-.jpg" class="placesfood img-responsive">
 					<h3>Tirtagangga</h3>
 				</div>
 
 				<div class="col-sm-3 col-sm-offset-1">
-					<img src="img/nusalembongan.jpg"class="nusa img-responsive">
+					<img src="img/nusalembongan.jpg"class="placesfood img-responsive">
 					<h3>Nusa Lembongan</h3>
 				</div>
 			 </div>
 		 </div>
 			
-
-			
-			
-			
+		
 	</section>
 	
 	<section id="quote">
 
-		 <p> Life is an ADVENTURE </br> That is best lived BOLDY </br> ~ Bear Grylls </p> 
+		 <p>Life is an ADVENTURE</br>That is best lived BOLDY</br>~ Bear Grylls</p> 
 			
-			
-
 	</section>
 
 
 
 	<section id="food">
 
-		<h2> Food </h2>
+
+		<h2>Food</h2>
+			
 			<div class="container">
   				<div class="row">
    					 <div class="col-sm-3 col-sm-offset-2 ">
-						<img src="img/balinesecrepe.jpg" class="crepes img-responsive">
+						<img src="img/balinesecrepe.jpg" class="placesfood img-responsive">
 						<h3>Balinese Crepes</h3>
 					 </div> 
 
 					 <div class="col-sm-3 col-sm-offset-2 ">
-					 	<img src="img/bebek.jpg" class="bebek img-responsive">
+					 	<img src="img/bebek.jpg" class="placesfood img-responsive">
 					 	<h3>Bebek</h3>
 					 </div> 
 				</div> 
@@ -159,18 +213,26 @@
 
 	<section id="todo">
 
-		<h2>What to do</h2>
+
+	<section id="quote">
+
+		 <p> TRAVEL IS FATAL </br> to prejudice, bigotry and narrow-mindedness </br> ~ Mark Twain </p> 
+			
+		
+	</section>
+
+		<h2>What to Do</h2>
 		
 
 		<div class="container">
   			<div class="row">
   				<div class="col-sm-3 col-sm-offset-2">
-  					<img src="img/museums.jpg" class="museums">
+  					<img src="img/museums1.jpg" class="museums img-responsive">
 					<h3>Museums</h3>
 			 	</div>
 
 			 	<div class="col-sm-3 col-sm-offset-2">
-					<img src="img/traditionalshows.jpg" class="shows">
+					<img src="img/traditionalshows1.jpg" class="shows img-responsive">
 					<h3>Traditional Shows</h3>
 				</div>
   			</div> 
@@ -179,7 +241,6 @@
 	</section>
 
 	<footer >
-		<h4 class="contactme"> Contact Me </h4>
 	
 
 		<div id="reseaux">
@@ -192,9 +253,18 @@
 		
 			<a href="http://instagram.com/" target="_blank"> <i class="fa fa-instagram fa-3x"> </i> </a>
 
-	</div>
+			<a class="icon" target="_blank" href="mailto:mika.m.bitar@gmail.com"> <i class="fa fa-envelope-square fa-3x"></i> </a> 
+
+		</div>
+
 	
 	</footer>
 
+		<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
 </body>
+
 </html>

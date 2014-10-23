@@ -1,38 +1,30 @@
 
 body {margin:0px; padding:0px; background-color: #f2fff2;}
 
-h1{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 500%;line-height: 200%}
+h1{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 500%;line-height: 200%; color: #033649;}
 
-h2 {text-align:center; font-family: 'Open Sans', sans-serif; font-size: 250%;line-height: 200%}
+h2 {text-align:center; font-family: 'Open Sans', sans-serif; font-size: 250%;line-height: 300%; color: #033649;}
 
-h3 {font-family: 'Open Sans', sans-serif;text-align: center; font-size: 200%;line-height: 200%}
+h3 {font-family: 'Open Sans', sans-serif;text-align: center; font-size: 200%;line-height: 200%; color: #036564;}
 
-p {text-align:center; font-family: 'Open Sans', sans-serif; line-height: 200%; font-size: 150%;}
+p {text-align:center; font-family: 'Open Sans', sans-serif; line-height: 200%; font-size: 150%; color: #036564;}
 
 
-#quote{background-color: #ebddcb; height: auto; width: 100%;
+
+#quote{background-color: #95bfaa; height: auto; width: 100%;
 		 vertical-align: middle;
-		 padding-top: 50px; padding-bottom: 50px;}
+		 padding-top: 25px; padding-bottom: 25px;}
 
 
 
 #mainimage{height:500px; width:100%;}
 
+/*.placesfood {height:200px; width:300px;}*/
 
-.crepes {height:200px; width:300px;}
-.bebek {height:200px; width:300px;}
+/*.museums {height:250px; width:200px;}
+.shows {height:250px; width:200px;} */
 
-.ubud{height:200px; width:300px;}
-.mtbatur {height:200px; width:300px;}
-.amed {height:200px; width:300px;}
-.tega {height:200px; width:300px;}
-.tirta {height:200px; width:300px;}
-.nusa {height:200px; width:300px;}
-
-.museums {height:250px; width:200px;}
-.shows {height:250px; width:200px;}
-
-li {
+/*li {
     display: inline;
 }
 
@@ -41,20 +33,20 @@ ul {
     margin: 20px;
     padding: 20px;
     border: 20px;
-}
+} */
 
 footer {background-color:#036564; height: auto; width: 100%;vertical-align: middle;
 		padding-top: 20px; padding-bottom: 20px; padding-left:20px;}
 
 
 
-nav {background-color: #036564; text-align: center; margin-top: 0px; font-size: 150%;}
+nav {background-color: #036564; text-align: center; font-size: 150%;}
 
-#mainimage nav {margin-top: 0px;}
+
 
  
  a {
- 	color: inherit;
+ 	color: black;
  }
 
   a:hover{
@@ -104,3 +96,22 @@ nav {background-color: #036564; text-align: center; margin-top: 0px; font-size: 
    
    #mainimage {height:200px; width:100%;}
 }
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+background-image: transparent;
+background-color: #036564;
+border-color: #e7e7e7;
+} 
+
+.navbar-default .navbar-nav>li>a {
+color: black;
+}
+
+.container-fluid {
+padding-right: 0px;
+padding-left: 0px;
+margin-right: auto;
+margin-left: auto;
+}
+
