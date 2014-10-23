@@ -1,11 +1,11 @@
 
 body {margin:0px; padding:0px; background-color: #f2fff2;}
 
-h1{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 400%;}
+h1{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 500%;line-height: 200%}
 
-h2 {text-align:center; font-family: 'Open Sans', sans-serif; font-size: 200%;}
+h2 {text-align:center; font-family: 'Open Sans', sans-serif; font-size: 250%;line-height: 200%}
 
-h3 {font-family: 'Open Sans', sans-serif;text-align: center;}
+h3 {font-family: 'Open Sans', sans-serif;text-align: center; font-size: 200%;line-height: 200%}
 
 p {text-align:center; font-family: 'Open Sans', sans-serif; line-height: 200%; font-size: 150%;}
 
@@ -16,7 +16,7 @@ p {text-align:center; font-family: 'Open Sans', sans-serif; line-height: 200%; f
 
 
 
-#mainimage{height:500px; width:100%;margin-bottom:0px;}
+#mainimage{height:500px; width:100%;}
 
 
 .crepes {height:200px; width:300px;}
@@ -70,24 +70,37 @@ nav {background-color: #036564; text-align: center; margin-top: 0px; font-size: 
 
 
 @media (max-width:320px) {  /*small mobile*/
-  h3 {
-    font-size: 
-  }
+  	
+  	
+
+  #mainimage {height:200px; width:100%;}
+
+	h1 {font-size: 300%;}
+
+	h2 {font-size: 175%}
+
+	h3 {font-size: 150%}
+
+	p {font-size: 100%}
+
 }
+
 
 
 @media (min-width:321px) and (max-width:959px) {  /*tablet*/
-  h3 {
-    background-color: green; 
-  }
-}
+  	
+
+   #mainimage {height:300px; width:100%;}
+	}
+
 @media (min-width:960px) and (max-width:1599px) {  /*desktop*/
-  h3 {
-    background-color: blue;
-  }
+ 
+   
+   #mainimage {height:500px; width:100%;}
 }
+
+
 @media (min-width:1600px) {  /*desktop and tv*/
-  h3 {
-    background-color: yellow;
-  }
+   
+   #mainimage {height:200px; width:100%;}
 }
