@@ -3,19 +3,22 @@ body {
 	margin:0px; 
 	padding:0px;
 	background-color: #f2fff2;
+	font-family: 'Bad Script', cursive;
+	font-size: 150%;
+
 	}
 
 h1	{
 	text-align: center; 
-	font-family: 'Montserrat', sans-serif; 
-	font-size: 500%;line-height: 200%; 
+	font-family: 'Bad Script', cursive;
+	font-size: 600%;line-height: 150%; 
 	color: #033649;
 	}
 
 h2 {text-align:center; 
 	font-family: 'Open Sans', sans-serif; 
 	font-size: 250%;
-	line-height: 300%; 
+	line-height: 200%; 
 	color: #033649;
 	}
 
@@ -23,7 +26,7 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center; 
 	font-size: 200%;
-	line-height: 200%;
+	line-height: 100%;
 	 color: #036564;
 	}
 
