@@ -26,7 +26,7 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center; 
 	font-size: 200%;
-	line-height: 100%;
+	line-height: 150%;
 	 color: #036564;
 	}
 
@@ -105,6 +105,18 @@ nav {
 	margin-left: 4%;
 	}	
 
+.first-button {
+	
+	margin-top: 4%;
+	margin-bottom: 4%
+	}	
+
+.second-button {
+	
+	margin-top: 4%;
+	margin-bottom: 4%
+	}	
+
 
 @media (max-width:320px) {  /*small mobile*/
   	
@@ -127,36 +139,46 @@ nav {
 @media (min-width:321px) and (max-width:959px) {  /*tablet*/
   	
 
-   #mainimage {height:300px; width:100%;}
-	}
+   #mainimage {
+   	height:300px; 
+   	width:100%;
+   	}
+
+}
 
 @media (min-width:960px) and (max-width:1599px) {  /*desktop*/
  
    
-   #mainimage {height:500px; width:100%;}
+   #mainimage {
+   	height:500px;
+    width:100%;
+	}
 }
 
 
 @media (min-width:1600px) {  /*desktop and tv*/
    
-   #mainimage {height:200px; width:100%;}
+   #mainimage {
+   	height:200px; 
+   	width:100%;
+   }
 }
 
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-background-image: transparent;
-background-color: #036564;
-border-color: #e7e7e7;
-} 
+	background-image: transparent;
+	background-color: #036564;
+	border-color: #e7e7e7;
+	} 
 
 .navbar-default .navbar-nav>li>a {
-color: black;
-}
+	color: black;
+	}
 
 .container-fluid {
-padding-right: 0px;
-padding-left: 0px;
-margin-right: auto;
-margin-left: auto;
-}
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	}
 
